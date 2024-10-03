@@ -23,6 +23,9 @@ h1 {
     font-style:bold
   }
   a {
-    color: #8A2BE2 ;
+    color: #8A2BE2;
+    text-decoration:none;
   }
-  
+  h2{font-size:14px;
+    height:50px;
+  }
