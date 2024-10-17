@@ -3,9 +3,10 @@ body {
   padding: 0;
   font-family: Arial, sans-serif;
 }
+
 header {
   width: 100%;
-  min-height: 33vh;/
+  min-height: 33vh;
   background-image: url('file:///C:/Users/berka/Documents/GitHub/p1-HTML-css/week%204/opdracht_4.1/images/Games.jpg');
   background-size: cover;
   background-position: center; 
@@ -16,6 +17,7 @@ header {
   text-align: center;
   position: relative;
 }
+
 header::before {
   content: '';
   position: absolute;
@@ -26,6 +28,7 @@ header::before {
   background: rgba(0, 0, 0, 0.5); 
   z-index: 1;
 }
+
 h1, p {
   z-index: 2; 
   color: white; 
@@ -33,13 +36,16 @@ h1, p {
   margin: 0;
   padding: 0 15px;
 }
+
 h1 {
   font-size: 2.5rem; 
   font-style: italic; 
 }
+
 p {
   font-size: 1.25rem; 
 }
+
 img {
   width: 50vw; 
   height: auto;
@@ -47,40 +53,35 @@ img {
   margin: 20px auto; 
   border-radius: 10px; 
 }
+
 article {
-  border: 3px solid #0000ff; 
+  border-left-width: 5px; 
+  border-left-color: #0000ff; 
+  border-left-style: solid; 
   border-radius: 15px; 
-  padding: 20px;
-  margin: 20px 0;
-  position: relative;
+  padding: 20px; 
+  margin: 20px 0; 
+  position: relative; 
 }
-article::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 10px; 
-  height: 100%;
-  background-color: #0000ff; 
-}
+
 section p {
   font-size: 16px;
   color: #4D4D4D;
 }
+
 a {
   color: #8A2BE2;
   text-decoration: none;
   font-weight: bold; 
 }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 1.75rem; 
   }
-
   p {
     font-size: 1rem;
   }
-
   img {
     width: 100vw; 
   }
