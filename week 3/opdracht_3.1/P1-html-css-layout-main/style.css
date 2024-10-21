@@ -8,8 +8,12 @@ html {
 }
 body {
   font-family: "Goldman", cursive;
+  height: 100vh;
 }
 nav {
+  position: sticky;
+  top: 0;
+  overflow: hidden;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -43,7 +47,7 @@ footer {
   width: 100%;
   padding: 2rem;
   min-height: 100px;
-  height: 100px;
+  height: 100vh;
   max-height: 100px;
   align-items: center;
   flex-wrap: wrap;
@@ -70,4 +74,11 @@ body {background-color: black;}
 }
 h1 {
   font-style: bold;
+  text-align: center;
+}
+.htmlimage {
+  float:left;
+  width: 400px;
+  height: 400px;
+
 }
