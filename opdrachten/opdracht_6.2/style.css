@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    height: 100vh;
+    border: 20px solid 0, 0, 0,;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.blue{
+    width: 200px;
+    height: 200px;
+    background: blue;
+}
+.black{
+    width: 200px;
+    height: 200px;
+    background: black;
+}
+.red{
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+.green{
+    width: 200px;
+    height: 200px;
+    background: green;
+}
