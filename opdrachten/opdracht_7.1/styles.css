@@ -1,0 +1,32 @@
+*{
+    box-sizing: border;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container{
+    flex-direction: column;
+  
+}
+
+.logo{
+    background-color: #ea4d4b;
+}
+
+.title1{
+    background-color: #f9ca22;
+    
+}
+
+.title2{
+    background-color: #f0922b;
+    
+}
+
+.title3{
+    background-color: #69b04c;
+    
+}
+
+@media all
+
