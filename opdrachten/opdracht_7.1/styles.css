@@ -6,27 +6,85 @@
 
 .flex-container{
     flex-direction: column;
-  
 }
 
 .logo{
     background-color: #ea4d4b;
+    min-height:76px;
+    color: white;
+    
 }
 
+.logoh1{
+    left: 57px;
+    top: 17px;
+    position: relative;
+    font-size: 30px;
+
+}
+.title1h3{
+    left: 53px;
+    top: 24px;
+    position: relative;
+
+}
+.title1p{
+    left: 53px;
+    top: 24px;
+    position: relative;
+
+}
+.title2h3{
+    left: 53px;
+    top: 24px;
+    position: relative;
+
+
+}
+.title2p{
+    left: 53px;
+    top: 24px;
+    position: relative;
+    font-style: bold;
+
+}
+.title3h3{
+    left: 53px;
+    top: 24px;
+    position: relative;
+    font-style: bold;
+
+}
+.title3p{
+    left: 53px;
+    top: 24px;
+    position: relative;
+
+}
 .title1{
     background-color: #f9ca22;
-    
+    min-height: 213px;
+    font-style: bold;
+
 }
 
 .title2{
     background-color: #f0922b;
-    
+    min-height: 213px;
+    font-style: bold;
+
 }
 
 .title3{
     background-color: #69b04c;
-    
+    min-height: 213px;
+    font-style: bold;
+
 }
 
-@media all
+@media only screen and (max-width: 992px) 
+  body {
+
+  }
+  
 
